@@ -80,13 +80,13 @@ def LeNet1():
 def LeNet5():
     model = Sequential([
         Rescaling(1, input_shape = (32, 32, 3)),
-        Conv2D(filters = 6, kernel_size = (5, 5), activation = 'tanh'),
+        Conv2D(filters = 6, kernel_size = (5, 5), activation = 'relu'),
         AveragePooling2D(pool_size = (2, 2)),
-        Conv2D(filters = 16, kernel_size = (5, 5), activation = 'tanh'),
+        Conv2D(filters = 16, kernel_size = (5, 5), activation = 'relu'),
         AveragePooling2D(pool_size = (2, 2)),
         Flatten(),
-        Dense(units = 400, activation = 'tanh'),
-        Dense(units = 84, activation = 'tanh'),
+        Dense(units = 400, activation = 'relu'),
+        Dense(units = 84, activation = 'relu'),
         Dense(units = 43, activation = 'softmax')
     ])
     return model
