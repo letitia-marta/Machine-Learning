@@ -1,12 +1,12 @@
 Required structure:  
   
 -> datasets  
-    -> GTSRB_dataset  
-        -> Meta  
-        -> Train  
-        -> Test  
-        * Meta.csv  
-        * Train.csv  
-        * Test.csv  
+&nbsp;-> GTSRB_dataset  
+&nbsp;-> Meta  
+&nbsp;-> Train  
+&nbsp;-> Test  
+&nbsp;* Meta.csv  
+&nbsp;* Train.csv  
+&nbsp;* Test.csv  
 -> src  
-    * main.py
+&nbsp;* main.py
