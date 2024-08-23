@@ -13,9 +13,9 @@ from sklearn.metrics import confusion_matrix, ConfusionMatrixDisplay, classifica
 from sklearn.preprocessing import label_binarize
 from sklearn.metrics import roc_curve, auc
 
-TRAIN_PATH = 'D:/BNN/Proiect/datasets/GTSRB_dataset/Train/'
-TEST_PATH = 'D:/BNN/Proiect/datasets/GTSRB_dataset/'
-ANNOTATIONS_FILE = 'D:/BNN/Proiect/datasets/GTSRB_dataset/Test.csv'
+TRAIN_PATH = '../datasets/GTSRB_dataset/Train/'
+TEST_PATH = '../datasets/GTSRB_dataset/'
+ANNOTATIONS_FILE = '../datasets/GTSRB_dataset/Test.csv'
 CLASSES = 43
 IMG_SIZE = (32, 32)
 
