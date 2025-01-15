@@ -23,7 +23,7 @@ TEST_PATH = 'D:/LETITIA/scoala/UVT/practica/Proiect/datasets/GTSRB_dataset/'
 ANNOTATIONS_FILE = 'D:/LETITIA/scoala/UVT/practica/Proiect/datasets/GTSRB_dataset/Test.csv'
 CLASSES = 43
 IMG_SIZE = (32, 32)
-RESULTS_DIR = 'D:/LETITIA/scoala/UVT/discipline/anul 3/IA/Proiect/results/ReLU'
+RESULTS_DIR = 'D:/LETITIA/scoala/UVT/discipline/anul 3/IA/Proiect/results/Sigmoid'
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
 def load_images (path, classes, img_size):
