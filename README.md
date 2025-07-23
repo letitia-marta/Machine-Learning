@@ -6,17 +6,29 @@ This project implements a **Machine Learning model** trained to recognize and cl
 ## 📁 Project Structure
 
 Machine-Learning/
+
 │
+
 ├── datasets/
+
 │ └── GTSRB_dataset/
+
 │ ├── Meta/
+
 │ ├── Train/
+
 │ ├── Test/
+
 │ ├── Meta.csv
+
 │ ├── Train.csv
+
 │ └── Test.csv
+
 │
+
 └── src/
+
 └── Sigmoid.py
 
 
