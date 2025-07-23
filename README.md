@@ -1,3 +1,5 @@
+This is a Machine Learning algorithm that is trained to recognize and classify traffic signs.
+
 Required structure:  
   
 -> datasets  
