@@ -4,8 +4,6 @@ This project implements a **Machine Learning model** trained to recognize and cl
 
 🔗 [GTSRB – German Traffic Sign Dataset on Kaggle](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign)
 
----
-
 ## 📁 Project Structure
 
 ```
@@ -31,8 +29,6 @@ The GTSRB dataset is organized into three parts:
 - `Train/`: Training images and labels.
 - `Test/`: Testing images and ground truth labels.
 - `*.csv` files contain relevant metadata and labels for each split.
-
----
 
 ## 🧠 Model Overview
 
