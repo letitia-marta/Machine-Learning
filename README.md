@@ -1,6 +1,6 @@
 # Traffic Sign Classifier 🚦
 
-This project implements a **Machine Learning model** trained to recognize and classify traffic signs using the [GTSRB (German Traffic Sign Recognition Benchmark)](http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset) dataset.
+This project implements a **Machine Learning model** trained to recognize and classify traffic signs using the [GTSRB (German Traffic Sign Recognition Benchmark)]([http://benchmark.ini.rub.de/?section=gtsrb&subsection=dataset](https://www.kaggle.com/datasets/meowmeowmeowmeowmeow/gtsrb-german-traffic-sign?datasetId=82373&language=Python)) dataset.
 ---
 
 ## 📁 Project Structure
