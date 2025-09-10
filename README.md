@@ -31,7 +31,13 @@ The GTSRB dataset is organized into three parts:
 - `*.csv` files contain relevant metadata and labels for each split.
 
 ## 🧠 Model Overview
+- The project provides **three main implementations**, each using a different activation function for comparison purposes:  
+  - `Sigmoid.py` → Sigmoid activation  
+  - `ReLU.py` → ReLU activation  
+  - `Tanh.py` → Tanh activation  
 
-- The model uses a **Sigmoid activation function** as demonstrated in `src/Sigmoid.py`.
-- Data preprocessing and feature extraction are assumed prior to feeding into the model.
-- The current implementation focuses on classification using numerical features derived from image data.
+- These implementations allow benchmarking and understanding the effect of different activation functions on model performance.
+
+- Data preprocessing and feature extraction are assumed prior to feeding into the models.
+
+- The focus is on traffic sign classification using numerical features derived from image data.
